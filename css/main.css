@@ -1,19 +1,33 @@
 body {
-    background-color: cadetblue;
-}
-
-
-footer {
-    background-color:white;
-
+    padding: 0;
+    margin: 0;
+    background: cadetblue;
 }
 
 b {
     text-aling:center;
 }
 
+body {
+    padding: 0;
+    margin: 0;
+    background: cadetblue;
+}
 .navbar {
-background-color: white;
-align: center;
-text-decoration-color: cadetblue;
+    background:white;
+}
+.nav-link,
+.navbar-brand {
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+.nav-link {
+    margin-right: 1em;
+    link-align: center;
+}
+.nav-link:hover {
+    color: cadetblue
+}
+.navbar-collapse {
+    justify-content: flex-start;
 }
