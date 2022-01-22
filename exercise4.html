@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercise 4</title>
-    
-    <style>
 
+    <style>
+        
         body {
         margin: 0;
       }
@@ -28,24 +29,57 @@
         padding: 10px;
         margin: 10px;
         background: aqua;
-        flex: 250px;
 
       }
 
-      section {
-          display:flex-wrap;
-          flex-wrap: wrap;
+      section{
+          display: flex;
+          flex-direction: column;
       }
-
+      .sidebar {
+        
+        float: left;
+        width: 10%;
+        min-height: 400px;
+        line-height: 40px;
+        padding: 15px;
+        margin: 20px;
+        text-align:left;
+        font-weight: bold;
+        font-size: 22px;
+        
+        
+      }
       </style>
 </head>
 <body>
     <header>
         <h1>Flex Box Examples </h1>
-      </header>
+    </header>
+
+    <nav>
+        <div class="sidebar">
+          <div>
+          side bar
+          </div>
+          <div>
+          side bar
+          </div>
+          <div>
+          side bar
+          </div>
+          <div>
+          side bar
+          </div>
+          <div>
+          side bar
+          </div>
+            
+        </div>
+    </nav>
 
       <section>
-          
+       
         <article>
           <h2>What is HTML?</h2>
           <p>

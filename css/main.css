@@ -2,7 +2,18 @@ body {
     background-color: cadetblue;
 }
 
-.red {
-    background-color: rgb(69, 177, 177);
+
+footer {
+    background-color:white;
+
 }
 
+b {
+    text-aling:center;
+}
+
+.navbar {
+background-color: white;
+align: center;
+text-decoration-color: cadetblue;
+}
